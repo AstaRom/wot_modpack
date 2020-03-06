@@ -1,0 +1,68 @@
+{
+  "version": "196",
+  "date": "06.03.2020",
+  "rus": {
+    "actual": [
+      "<font color='#C8C8B5'>Актуальная версия сборки</font>"
+    ],
+    "beta": [
+      "<font color='#C8C8B5'>Бета версия сборки</font>"
+    ],
+    "update": [
+      "<font color='#C8C8B5'>Доступно обновление сборки</font>",
+      "<a href='event:MPU:Info'>Подробнее</a>"
+    ],
+    "elements": {
+      "title": "Обновление:",
+      "submit": "Скачать",
+      "close": "Закрыть"
+    },
+    "updateDialog": [
+      "",
+      "<font color='#C8C8B5'>Версия клиента: <font color='#90FF00'>{{gamePatch}}</font></font>",
+      "<font color='#C8C8B5'>Версия сборки: <font color='#90FF00'>{{localDate}}</font></font>",
+      "<font color='#C8C8B5'>Доступно обновление: <font color='#FFBA00'>{{serverDate}}</font></font>",
+      "",
+      "<font color='#3075D8'><b>Список изменений:</b></font>",
+      "{{changeLog}}",
+      "",
+      "<font size='0'>.</font>"
+    ],
+    "changeLog": [
+      "* Обновлен мод XVM",
+      "* Незначительные исправления"
+    ]
+  },
+  "eng": {
+    "actual": [
+      "<font color='#C8C8B5'>Current build is actual</font>"
+    ],
+    "beta": [
+      "<font color='#C8C8B5'>Beta build version</font>"
+    ],
+    "update": [
+      "<font color='#C8C8B5'>Update available</font>",
+      "<a href='event:MPU:Info'>Learn more</a>"
+    ],
+    "elements": {
+      "title": "Update:",
+      "submit": "Download",
+      "close": "Close"
+    },
+    "updateDialog": [
+      "",
+      "<font color='#C8C8B5'>Client version: <font color='#00FF00'>{{gamePatch}}</font></font>",
+      "<font color='#C8C8B5'>Build version: <font color='#00FF00'>{{localDate}}</font></font>",
+      "<font color='#C8C8B5'>Update available: <font color='#FFBA00'>{{serverDate}}</font></font>",
+      "",
+      "<font color='#3075D8'><b>Change Log:</b></font>",
+      "{{changeLog}}",
+      "",
+      "<font size='0'>.</font>"
+    ],
+    "changeLog": [
+      "* Updated mod XVM",
+      "* Minor bug fixes"
+    ]
+  }
+}
