@@ -1,6 +1,6 @@
 {
-  "version": "250",
-  "date": "12.03.2021",
+  "version": "251",
+  "date": "13.03.2021",
   "rus": {
     "actual": [
       "<font color='#C8C8B5'>Актуальная версия сборки</font>"
@@ -29,7 +29,7 @@
       "<font size='0'>.</font>"
     ],
     "changeLog": [
-      "* Обновлен мод XVM",
+      "* Исправлено отображение доп.информации в карусели техники",
       "* Незначительные исправления"
     ]
   },
@@ -61,7 +61,7 @@
       "<font size='0'>.</font>"
     ],
     "changeLog": [
-      "* Updated mod XVM",
+      "* Fixed display of additional information in the vehicle carousel",
       "* Minor bug fixes"
     ]
   }
