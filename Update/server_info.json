@@ -1,67 +1,55 @@
 {
-  "version": "251",
-  "date": "13.03.2021",
+  "version": "252",
+  "date": "21.04.2021",
   "rus": {
-    "actual": [
-      "<font color='#C8C8B5'>Актуальная версия сборки</font>"
-    ],
-    "beta": [
-      "<font color='#C8C8B5'>Бета версия сборки</font>"
-    ],
     "update": [
-      "<font color='#C8C8B5'>Доступно обновление сборки</font>",
-      "<a href='event:MPU:Info'>Подробнее</a>"
+      "Доступно обновление сборки"
     ],
     "elements": {
-      "title": "Обновление:",
+      "title": "Информация:",
       "submit": "Скачать",
       "close": "Закрыть"
     },
     "updateDialog": [
-      "",
-      "<font color='#C8C8B5'>Версия клиента: <font color='#90FF00'>{{gamePatch}}</font></font>",
-      "<font color='#C8C8B5'>Версия сборки: <font color='#90FF00'>{{localDate}}</font></font>",
-      "<font color='#C8C8B5'>Доступно обновление: <font color='#FFBA00'>{{serverDate}}</font></font>",
-      "",
-      "<font color='#3075D8'><b>Список изменений:</b></font>",
+      "<textformat leading='-60'><img src='img://gui/maps/icons/library/new.png' rotate='90'></textformat>",
+      "<textformat tabstops='[25,158]'>",
+      "<font color='#C8C8B5'>\tВерсия клиента:\t<font color='#00FF00'>{{gamePatch}}</font></font>",
+      "<font color='#C8C8B5'>\tВерсия сборки:\t<font color='#00FF00'>{{localDate}}</font> #{{localVer}}</font>",
+      "<font color='#C8C8B5'>\tДоступно обновление:\t<font color='#FFBA00'>{{serverDate}}</font> #{{serverVer}}</font>",
+      "</textformat>",
+      "<p align='center'><font color='#3075D8'><b>Список изменений:</b></font></p>",
       "{{changeLog}}",
       "",
       "<font size='0'>.</font>"
     ],
     "changeLog": [
-      "* Исправлено отображение доп.информации в карусели техники",
+      "* Обновлен мод XVM",
       "* Незначительные исправления"
     ]
   },
   "eng": {
-    "actual": [
-      "<font color='#C8C8B5'>Current build is actual</font>"
-    ],
-    "beta": [
-      "<font color='#C8C8B5'>Beta build version</font>"
-    ],
     "update": [
-      "<font color='#C8C8B5'>Update available</font>",
-      "<a href='event:MPU:Info'>Learn more</a>"
+      "Update modpack available"
     ],
     "elements": {
-      "title": "Update:",
+      "title": "Info:",
       "submit": "Download",
       "close": "Close"
     },
     "updateDialog": [
-      "",
-      "<font color='#C8C8B5'>Client version: <font color='#00FF00'>{{gamePatch}}</font></font>",
-      "<font color='#C8C8B5'>Build version: <font color='#00FF00'>{{localDate}}</font></font>",
-      "<font color='#C8C8B5'>Update available: <font color='#FFBA00'>{{serverDate}}</font></font>",
-      "",
-      "<font color='#3075D8'><b>Change Log:</b></font>",
+      "<textformat leading='-60'><img src='img://gui/maps/icons/library/new.png' rotate='90'></textformat>",
+      "<textformat tabstops='[25,125]'>",
+      "<font color='#C8C8B5'>\tClient version:\t<font color='#00FF00'>{{gamePatch}}</font></font>",
+      "<font color='#C8C8B5'>\tBuild version:\t<font color='#00FF00'>{{localDate}}</font> #{{localVer}}</font>",
+      "<font color='#C8C8B5'>\tUpdate available:\t<font color='#FFBA00'>{{serverDate}}</font> #{{serverVer}}</font>",
+      "</textformat>",
+      "<p align='center'><font color='#3075D8'><b>Change Log:</b></font></p>",
       "{{changeLog}}",
       "",
       "<font size='0'>.</font>"
     ],
     "changeLog": [
-      "* Fixed display of additional information in the vehicle carousel",
+      "* Updated mod XVM",
       "* Minor bug fixes"
     ]
   }
